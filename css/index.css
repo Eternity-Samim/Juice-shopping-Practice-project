@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#container{
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.section{
+  background-color: #69eb2d;
+  height: 49%;
+  width: 49%;
+  border: solid black 1%;
+}
+
+.juice{
+  height: 50%;
+  width: 80%;
+  margin: 10%;
+  border: solid black 3px;
+}
+
+.name{
+  text-align: center;
+  font-size: 4vh;
+}
+
+.buy{
+  padding: 5%;
+  position: relative;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: black;
+  border: none;
+  color: #69eb2d;
+  border-radius: 5%;
+  font-size: 2vh;
+}
+
+.addToCart{
+  position: fixed;
+  top: 45vh;
+  left: 50vw;
+  transform: translate(-50%);
+  background-color: grey;
+  color: #69eb2d;
+  border: 5px solid #0a87b2;
+  font-size: 2vh;
+  padding: 4%;
+  border-radius: 5%;
+  visibility: hidden;
+}
